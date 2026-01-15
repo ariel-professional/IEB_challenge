@@ -22,7 +22,9 @@ function route(venues: number[], target: number): number[] {
   return [];
 }
 
-const venues = [120, 100, 39, 12039, 50, 0, 60];
+// const venues1 = [120, 80, 40, 60];
+// const venues2 = [120, 40, 1, 60, 50, 50];
+const venues3 = [120, 100, 39, 12039, 43, 1, 60, 50, 50];
 const target = 100;
 
 const [i, j] = route(venues, target)
